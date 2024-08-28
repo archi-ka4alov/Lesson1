@@ -1,6 +1,6 @@
-example = 'Топинамбур'
+example = 'Тепловыделение'
 print(example[0])
 print(example[-1])
-print(example[5:10])
+print(example[len(example) // 2:len(example)])
 print(example[::-1])
 print(example[1::2])
